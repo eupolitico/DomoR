@@ -3,7 +3,7 @@
 .domo_env <- new.env()
 
 .onLoad <- function(libname, pkgname) {
-  packageStartupMessage("Welcome to DomoR")
+  packageStartupMessage("Welcome to DomoR - patched for Politico")
 }
 
 #' Initialize Domo package
